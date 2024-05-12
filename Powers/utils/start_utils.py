@@ -40,7 +40,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (
                     "➕ Add me to a chat!",
-                    f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
+                    f"https://t.me/Anya_x_Damian_bot?startgroup=s&admin",
                     "url",
                 ),
                 (
@@ -61,24 +61,24 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (
                     "🗃️ Source Code",
-                    "https://github.com/Gojo-Bots/Gojo_Satoru",
+                    "https://github.com/tusarpatel/AnayaXdamian",
                     "url",
                 ),
                 (
                     "Owner ❤️",
-                    Config.OWNER_ID,
+                    Config.6968763387,
                     "user_id",
                 ),
             ],
             [
                 (
                     "Essential",
-                    "https://t.me/+PcVYvdzNt4E1YjM1",
+                    "https://.t.me/about_tosuu",
                     "url",
                 ),
                 (
                     "Powered by",
-                    f"https://{Config.SUPPORT_CHANNEL}.t.me",
+                    f"https://.t.me/about_tosuu",
                     "url",
                 ),
             ],
