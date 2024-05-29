@@ -12,7 +12,7 @@
 ------
 
 
-[![GitHub forks](https://img.shields.io/github/forks/Gojo-Bots/Gojo_Satoru?style=social)](https://github.com/Gojo-Bots/Gojo_Satoru/fork)
+[![GitHub forks](https://img.shields.io/github/forks/Gojo-Bots/Gojo_Satoru?style=social)](https://github.com/tusarpatel/AnayaXdamian/fork)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Gojo-Bots/Gojo_Satoru?style=social)
 
 ![Repo Size](https://img.shields.io/github/repo-size/Gojo-Bots/Gojo_Satoru?&style=social&logo=github)
@@ -84,7 +84,7 @@ The Gojo Satoru is a powerful Group Management bot with awesome plugins and feat
 
 * Just click on the button it will redirect you to Heroku website and deploy your bot there....enjoy 😉
 
-[![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Gojo-Bots/Gojo_Satoru.git)
+[![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://github.com/tusarpatel/AnayaXdamian.git)
 
 -------
 
