@@ -66,7 +66,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
                 ),
                 (
                     "Owner ❤️",
-                    Config.6968763387,
+                    Config.6848223695,
                     "user_id",
                 ),
             ],
