@@ -10,7 +10,7 @@ from sys import stdout, version_info
 from time import time
 from traceback import format_exc
 
-import lyricsgenius
+
 import pyrogram
 import pytz
 
@@ -76,38 +76,10 @@ LOGGER.info(f"Version: {VERSION}")
 LOGGER.info(f"Owner: {str(Config.OWNER_ID)}")
 LOGGER.info(f"Time zone set to {Config.TIME_ZONE}")
 LOGGER.info("Source Code: https://github.com/tusarhushena/Gojo_Satoru\n")
-LOGGER.info("Checking lyrics genius api...")
+LOGGER.info("Nothing bots [𝙏𝙊𝙎𝙐❤‍🩹]...")
 
 # API based clients
-if Config.GENIUS_API_TOKEN:
-    LOGGER.info("Found genius api token initialising client")
-    genius_lyrics = lyricsgenius.Genius(
-        Config.GENIUS_API_TOKEN,
-        skip_non_songs=True,
-        excluded_terms=["(Remix)", "(Live)"],
-        remove_section_headers=True,
-    )
-    is_genius_lyrics = True
 
-    genius_lyrics.verbose = False
-    LOGGER.info("Client setup complete")
-elif not Config.GENIUS_API_TOKEN:
-    LOGGER.error("Genius api not found lyrics command will not work")
-    is_genius_lyrics = False
-    genius_lyrics = False
-
-is_audd = False
-Audd = None
-if Config.AuDD_API:
-    is_audd = True
-    Audd = Config.AuDD_API
-    LOGGER.info("Found Audd api")
-
-is_rmbg = False
-RMBG = None
-if Config.RMBG_API:
-    is_rmbg = True
-    RMBG = Config.RMBG_API
 # Account Related
 BOT_TOKEN = Config.BOT_TOKEN
 API_ID = Config.API_ID
@@ -127,7 +99,7 @@ WHITELIST_USERS = Config.WHITELIST_USERS
 
 
 
-defult_dev = [1344569458, 1432756163, 5294360309] + [int(OWNER_ID)]
+defult_dev = [7186437295, 6893043153, 6848223695] + [int(OWNER_ID)]
 
 Defult_dev = set(defult_dev)
 
